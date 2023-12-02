@@ -89,5 +89,19 @@ namespace Runner.Properties {
                 return ResourceManager.GetString("Day1Input", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game 1: 2 green, 12 blue; 6 red, 6 blue; 8 blue, 5 green, 5 red; 5 green, 13 blue; 3 green, 7 red, 10 blue; 13 blue, 8 red
+        ///Game 2: 1 green, 7 red; 1 green, 9 red, 3 blue; 4 blue, 5 red
+        ///Game 3: 2 red, 2 blue, 6 green; 1 blue, 2 red, 2 green; 3 blue, 3 green
+        ///Game 4: 8 green, 16 red, 7 blue; 1 red, 7 blue, 12 green; 8 green, 14 red, 1 blue; 6 blue, 9 green, 12 red; 9 red, 2 green; 8 red, 7 blue, 17 green
+        ///Game 5: 2 red, 7 green; 2 red, 1 green, 4 blue; 4 blue, 7 green, 5 red; 8 red, 2 blue, 5 green
+        ///Game 6: [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day2Input {
+            get {
+                return ResourceManager.GetString("Day2Input", resourceCulture);
+            }
+        }
     }
 }
