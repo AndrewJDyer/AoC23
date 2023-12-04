@@ -115,5 +115,18 @@ namespace Runner.Properties {
                 return ResourceManager.GetString("Day3Input", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Card   1: 69 24 51 87  9 49 17 16 21 48 |  5 52 86 35 57 18 60 84 50 76 96 47 38 41 34 36 55 20 25 37  6 70 66 45  3
+        ///Card   2: 59 63 94  2 95 30 57 69 85  7 | 95 44 84 30 92 21 74  9 99 49 24 23  8 68  7 63 45 28 96  2 69 77 93 59 85
+        ///Card   3: 90 28  1 14 41 83 24 59 55  6 | 29 15 72 47 32 96 73 76 52 20 53 26 78 39 85 92  3 67 51 75 64 54 99 65 22
+        ///Card   4: 88 86 30  6 50 32 66 89 81 93 | 99 93 68 37 13 56 66 88 78 89 81 69  6 50 53 86 45 34 32 38 36 84 49 30 35
+        ///Card   5: 97 23 64 49 50 60 80 55 65 66  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day4Input {
+            get {
+                return ResourceManager.GetString("Day4Input", resourceCulture);
+            }
+        }
     }
 }

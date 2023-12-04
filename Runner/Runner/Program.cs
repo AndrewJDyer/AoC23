@@ -1,7 +1,7 @@
 ﻿using Common;
 using Runner.Properties;
 
-RunPuzzle(new Day3.Puzzle.PartB(Resources.Day3Input));
+RunPuzzle(new Day4.Puzzle.PartB(Resources.Day4Input));
 
 static void RunPuzzle(IPuzzle puzzle)
 {
